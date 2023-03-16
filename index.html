@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add Funds</h1>
+      <p>Current Balance: <span id="balance">$0.00</span></p>
+      <form id="add-funds-form">
+        <label for="amount">Amount</label>
+        <input type="text" id="amount" name="amount" placeholder="$0.00" pattern="[0-9]+(\.[0-9]+)?">
+        <button type="submit">Add Funds</button>
+      </form>
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
